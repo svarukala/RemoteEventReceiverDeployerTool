@@ -164,16 +164,6 @@ namespace DeployRER
                         break;
                 }
             }
-            //EventReceiverType.sit
-            //AttachReceiver(pubsite, "Pages", "MylanItemDeletingEvent", EventReceiverType.ItemDeleting);
-            //AttachReceiver(devsite4, "SampleRERListAdded", EventReceiverType.ListAdded);
-            //RemoveReceiver(teamsite, "SiteCollDeletingEvent");
-            //RemoveReceiver(devsite, "ListAddedEvent");
-            //GetReceivers(pubsite, "Pages");
-            //GetPropBagValues(teamsite);
-            //DeleteSite(teamsite);
-            //DeleteWeb(teamsite);
-
             Console.WriteLine("Done. Press any key to exit.");
             Console.ReadLine();
         }
